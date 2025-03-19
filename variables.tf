@@ -13,7 +13,6 @@ variable "instance_type" {
 variable "image" {
     description = "Image to deploy"
     type        = string
-    default     = "private/28864823"
 }
 
 variable "metadata_options" {
